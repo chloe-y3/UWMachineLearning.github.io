@@ -33,4 +33,28 @@ profiles:
       <p>Simon Shaolei Du</p>
       <p>Assistant Professor</p>
       <p>ssdu@cs.washington.edu</p>
+  - align: center
+    image: kevin.jpeg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Kevin Jamieson</p>
+      <p>Assistant Professor</p>
+      <p>jamieson@cs.washington.edu</p>
+  - align: center
+    image: jamie.jpeg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Jamie Morgenstern</p>
+      <p>Assistant Professor</p>
+      <p>jamiemmt@cs.washington.edu</p>
+  - align: center
+    image: ludwig.jpeg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Ludwig Schmidt</p>
+      <p>Assistant Professor</p>
+      <p>schmidt@cs.washington.edu</p>
 ---
