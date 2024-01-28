@@ -21,7 +21,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sewoong Oh</p>
-      <p>Assistant Professor</p>
+      <p>Professor</p>
       <p>sewoong@cs.washington.edu</p>
   - image: simon.png
     url: https://simonshaoleidu.com/
