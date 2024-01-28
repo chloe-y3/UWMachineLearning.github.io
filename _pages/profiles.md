@@ -25,4 +25,12 @@ profiles:
       <p>Sewoong Oh</p>
       <p>Assistant Professor</p>
       <p>sewoong@cs.washington.edu</p>
+  - align: center
+    image: simon.png
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Simon Shaolei Du</p>
+      <p>Assistant Professor</p>
+      <p>ssdu@cs.washington.edu</p>
 ---
