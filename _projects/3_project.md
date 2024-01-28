@@ -5,7 +5,7 @@ description: Assistant Professor
 img: assets/img/pw.jpeg
 redirect: https://koh.pw/
 importance: 3
-category: faculty
+category: data
 ---
 
 Every project has a beautiful feature showcase page.
