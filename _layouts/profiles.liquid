@@ -10,7 +10,7 @@ layout: page
           {% if forloop.index0 | modulo: 3 == 0 and forloop.index0 != 0 %}
             </div><div class="profile-row">
           {% endif %}
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          <div class="profile" style="text-align: center; float: {% if profile.align == 'left' %}left{% else %}right{% endif %};">
             {% if profile.image %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
               {% if profile.image_circular %}
@@ -18,8 +18,8 @@ layout: page
               {% else %}
                 {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
               {% endif %}
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
-              {% include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = profile.image %}
+              {% assign fixed_size = '300px' %} <!-- Define your fixed size here -->
+              {% include figure.liquid path=profile_image_path class=profile_image_class sizes=fixed_size alt=profile.image %}
             {% endif %}
             {% if profile.more_info %}
               <div class="more-info">{{ profile.more_info }}</div>
