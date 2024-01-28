@@ -15,7 +15,9 @@ layout: page
               {% else %}
                 {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
               {% endif %}
-              {% include figure.liquid path=profile_image_path class=profile_image_class alt=profile.image %}
+              <a href="{{ profile.url }}" target="_blank"> <!-- Adding the link here -->
+                {% include figure.liquid path=profile_image_path class=profile_image_class alt=profile.image %}
+              </a>
             {% endif %}
             {% if profile.more_info %}
               <div class="more-info">{{ profile.more_info }}</div>
