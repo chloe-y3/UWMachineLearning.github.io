@@ -1,42 +1,6 @@
 ---
 layout: page
 ---
-
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      <div class="profile-grid">
-        {% for profile in page.profiles %}
-          <div class="profile-item">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
-              {% endif %}
-              <a href="{{ profile.url }}" target="_blank"> <!-- Adding the link here -->
-                {% include figure.liquid path=profile_image_path class=profile_image_class alt=profile.image %}
-              </a>
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-          </div>
-          {% if forloop.index != 0 and forloop.index | modulo: 3 == 0 and forloop.index != forloop.length %}
-            </div><div class="profile-row">
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
-  </article>
-</div>
-
-
-
-
-<!-- old format with content and one profile per line -->
-{% comment %}
 <div class="post">
   <article>
     {% if page.profiles %}
@@ -70,4 +34,3 @@ layout: page
     {% endif %}
   </article>
 </div>
-{% endcomment %}
