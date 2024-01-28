@@ -190,6 +190,15 @@ blockquote {
   align-items: center;
   text-align: center;
   margin: 10px; /* Adjust margin as needed */
+  .more-info {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+
+  p {
+    display: inline-block;
+    margin: 0;
+  }
 }
 
 .profile-image {
