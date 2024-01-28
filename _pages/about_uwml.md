@@ -1,0 +1,1 @@
+The University of Washington is one of the world's top centers of research in machine learning. We are active in most major areas of machine learning and in a variety of applications like natural language processing, vision, computational biology, the web, and social networks. 
