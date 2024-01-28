@@ -14,7 +14,7 @@ profiles:
     content: about_einstein.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>[Pang Wei Koh](https://koh.pw/)</p>
+      <p>Pang Wei Koh</p>
       <p>Assistant Professor</p>
       <p>pangwei@cs.washington.edu</p>
   - align: left
@@ -22,7 +22,7 @@ profiles:
     content: about_pw.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>[Sewoong Oh](https://homes.cs.washington.edu/~sewoong/)</p>
+      <p>Sewoong Oh</p>
       <p>Professor</p>
       <p>sewoong@cs.washington.edu</p>
 ---
