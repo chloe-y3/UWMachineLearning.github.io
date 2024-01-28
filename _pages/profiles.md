@@ -20,7 +20,7 @@ profiles:
   - align: left
     image: sewoong.png
     content: about_sewoong.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sewoong Oh</p>
       <p>Professor</p>
