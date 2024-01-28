@@ -48,10 +48,10 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$uw-purple-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
+  --global-text-color: #{$uw-gold-color};
+  --global-text-color-light: #{$uw-gold-color};
   --global-theme-color: #{$uw-gold-color};
   --global-hover-color: #{$uw-gold-color};
   --global-hover-text-color: #{$white-color};
