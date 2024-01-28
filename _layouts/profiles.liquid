@@ -5,9 +5,9 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      <div class="profile-row">
+      <div class="profile-grid">
         {% for profile in page.profiles %}
-          <div class="profile">
+          <div class="profile-item">
             {% if profile.image %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
               {% if profile.image_circular %}
