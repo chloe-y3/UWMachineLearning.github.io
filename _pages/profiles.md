@@ -19,7 +19,7 @@ profiles:
       <p>pangwei@cs.washington.edu</p>
   - align: left
     image: sewoong.png
-    content: about_einstein.md
+    content: about_pw.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>[Sewoong Oh](https://homes.cs.washington.edu/~sewoong/)</p>
