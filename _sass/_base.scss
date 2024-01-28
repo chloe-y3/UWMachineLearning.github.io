@@ -179,7 +179,7 @@ blockquote {
 //my profile format
 .profile-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-around; // This will distribute space around each profile evenly
   flex-wrap: wrap; /* Allows multiple rows */
 }
 
