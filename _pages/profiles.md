@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: center
     image: pw.jpeg
-    content: about_pw.md
+    content:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Pang Wei Koh</p>
@@ -19,7 +19,7 @@ profiles:
       <p>pangwei@cs.washington.edu</p>
   - align: center
     image: sewoong.png
-    content: about_sewoong.md
+    content:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sewoong Oh</p>
