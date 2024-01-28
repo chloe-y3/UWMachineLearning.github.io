@@ -9,7 +9,7 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - align: left
+  - align: center
     image: pw.jpeg
     content: about_pw.md
     image_circular: true # crops the image to make it circular
@@ -17,12 +17,12 @@ profiles:
       <p>Pang Wei Koh</p>
       <p>Assistant Professor</p>
       <p>pangwei@cs.washington.edu</p>
-  - align: left
+  - align: center
     image: sewoong.png
     content: about_sewoong.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sewoong Oh</p>
-      <p>Professor </p>
+      <p>Assistant Professor</p>
       <p>sewoong@cs.washington.edu</p>
 ---
