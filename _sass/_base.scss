@@ -180,16 +180,16 @@ blockquote {
 .profile-row {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center; /* For centering text or other inline elements */
+  flex-wrap: wrap; /* Allows multiple rows */
 }
 
-.profile-column {
-  flex: 0 0 33.33%; /* Each column takes up one-third of the row */
+.profile {
+  flex: 0 0 33.33%; /* Each profile takes one-third of the row */
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px; /* Adjust margin as needed */
 }
 
 .profile-image {
@@ -200,20 +200,20 @@ blockquote {
 }
 
 
-.profile {
-  width: 100%;
+// .profile {
+//   width: 100%;
 
-  .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+//   .more-info {
+//     margin-bottom: 5px;
+//     margin-top: 5px;
+//     font-family: monospace;
 
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
-}
+//     p {
+//       display: inline-block;
+//       margin: 0;
+//     }
+//   }
+// }
 
 .profile.float-right {
   margin-left: 1rem;
