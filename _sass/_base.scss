@@ -176,6 +176,30 @@ blockquote {
 
 // Profile
 
+//my profile format
+.profile-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* For centering text or other inline elements */
+}
+
+.profile-column {
+  flex: 0 0 33.33%; /* Each column takes up one-third of the row */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* For circular images */
+  object-fit: cover; /* To maintain aspect ratio */
+}
+
+
 .profile {
   width: 100%;
 
