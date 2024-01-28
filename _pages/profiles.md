@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: center
     image: pw.jpeg
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Pang Wei Koh</p>
@@ -19,7 +19,7 @@ profiles:
       <p>pangwei@cs.washington.edu</p>
   - align: center
     image: sewoong.png
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Sewoong Oh</p>
@@ -27,7 +27,7 @@ profiles:
       <p>sewoong@cs.washington.edu</p>
   - align: center
     image: simon.png
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Simon Shaolei Du</p>
@@ -35,7 +35,7 @@ profiles:
       <p>ssdu@cs.washington.edu</p>
   - align: center
     image: kevin.jpeg
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Kevin Jamieson</p>
@@ -43,7 +43,7 @@ profiles:
       <p>jamieson@cs.washington.edu</p>
   - align: center
     image: jamie.jpeg
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Jamie Morgenstern</p>
@@ -51,7 +51,7 @@ profiles:
       <p>jamiemmt@cs.washington.edu</p>
   - align: center
     image: ludwig.jpeg
-    content:
+    url: https://koh.pw/
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Ludwig Schmidt</p>
