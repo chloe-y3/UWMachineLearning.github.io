@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: People
+permalink: /people/
+description: Members in the UW ML group.
 nav: true
 nav_order: 3
 display_categories: [faculty, student]
