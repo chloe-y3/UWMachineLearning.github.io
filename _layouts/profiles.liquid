@@ -7,29 +7,29 @@ layout: page
     {% if page.profiles %}
       <div class="profile-row">
         {% for profile in page.profiles %}
-          {% if forloop.index0 | modulo: 3 == 0 and forloop.index0 != 0 %}
-            </div><div class="profile-row">
-          {% endif %}
-          <div class="profile" style="margin: auto; text-align: center;">
+          <div class="profile">
             {% if profile.image %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
               {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
               {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
               {% endif %}
-              {% assign fixed_size = '300px' %} <!-- Define your fixed size here -->
-              {% include figure.liquid path=profile_image_path class=profile_image_class sizes=fixed_size alt=profile.image %}
+              {% include figure.liquid path=profile_image_path class=profile_image_class alt=profile.image %}
             {% endif %}
             {% if profile.more_info %}
               <div class="more-info">{{ profile.more_info }}</div>
             {% endif %}
           </div>
+          {% if forloop.index != 0 and forloop.index | modulo: 3 == 0 and forloop.index != forloop.length %}
+            </div><div class="profile-row">
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
   </article>
 </div>
+
 
 
 
