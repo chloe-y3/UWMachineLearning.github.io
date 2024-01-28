@@ -10,7 +10,7 @@ layout: page
           {% if forloop.index0 | modulo: 3 == 0 and forloop.index0 != 0 %}
             </div><div class="profile-row">
           {% endif %}
-          <div class="profile" style="text-align: center; float: {% if profile.align == 'left' %}left{% else %}right{% endif %};">
+          <div class="profile" style="margin: auto; text-align: center;">
             {% if profile.image %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
               {% if profile.image_circular %}
