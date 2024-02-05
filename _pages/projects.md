@@ -9,6 +9,8 @@ display_categories: [faculty, affiliate faculty, student]
 horizontal: false
 ---
 
+We collaborate closely and frequently co-advise with the NLP, Vision, Robotics, and Comp Bio groups at UW.
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
