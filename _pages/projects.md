@@ -5,7 +5,7 @@ permalink: /people/
 description: Members in the UW ML group.
 nav: true
 nav_order: 3
-display_categories: [faculty, affiliate_faculty, student]
+display_categories: [faculty, affiliate faculty, student]
 horizontal: false
 ---
 
