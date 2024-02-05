@@ -9,7 +9,7 @@ display_categories: [faculty, affiliate faculty, student]
 horizontal: false
 ---
 
-We collaborate closely and frequently co-advise with the NLP, Vision, Robotics, and Comp Bio groups at UW.
+We collaborate closely and frequently co-advise with the [NLP](https://www.cs.washington.edu/research/nlp), [Vision](https://www.cs.washington.edu/research/ai/vision), [Robotics](https://robotics.cs.washington.edu/), and [Computational Biology](https://www.cs.washington.edu/research/compbio) groups at UW.
 
 <!-- pages/projects.md -->
 <div class="projects">
