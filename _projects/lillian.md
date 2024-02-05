@@ -5,5 +5,5 @@ description: Associate Professor
 img:
 redirect: https://faculty.washington.edu/ratliffl/
 importance: 1
-category: affiliate_faculty
+category: affiliate faculty
 ---
